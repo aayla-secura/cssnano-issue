@@ -1,0 +1,16 @@
+:root,
+:root .dark-theme .light-theme {
+  --col: #fff;
+}
+:root .dark-theme {
+  --col: #333;
+}
+.arrow {
+  border-color: #fff transparent;
+  border-color: var(--col) transparent;
+  border-style: solid;
+  border-width: 50px;
+  border-top: none;
+  height: 0;
+  width: 0;
+}
